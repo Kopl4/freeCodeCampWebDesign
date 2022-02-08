@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  </head>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilos.css">
+
+ <body>
+
+   <h1 id="title">Are you interest in D&D? </h1>
+   <p id="description">let us your info, will contact with you</p>
+
+   <form id="survey-form">
+
+    <div id="label">
+     <label for="name"id="name-label"> Name:</label>
+     <input type="text" id="name" required placeholder="Put your name here">
+     <label for="email"id="email-label"> Email:</label>
+     <input type="email" id="email" required placeholder="Put your email here">
+     <label for="number"id="number-label"> Age:</label>
+     <input type="number" id="number" min="1" max="100" required placeholder="18">
+    </div>
+
+     <select id="dropdown">
+       <option value="new">I never play D&D</option>
+       <option value="old">I played D&D for less one time</option>
+     </select>
+
+
+     <fieldset id="group1">
+         I have friends for play<input name="group"type="radio" value="1">
+         I search friends for play<input name="group"type="radio" value="2">
+     </fieldset>
+
+    <div id="checkbox">
+     <input type="checkbox" name="Dungeon Master" value="Dm">I wanna be a Dm <br>
+     <input type="checkbox" name="Player" value="Player">I wanna be a player <br>
+    </div>
+
+     <textarea placeholder="Tell us about you..."></textarea> <br>
+
+     <input type="submit" id="submit">
+   </form>
+
+ </body>
+
+
+</html>
